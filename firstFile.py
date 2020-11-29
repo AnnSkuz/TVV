@@ -25,3 +25,7 @@ def quick_sort(nums):
 
     _quick_sort(nums, 0, len(nums) - 1)
 
+# Проверяем, что оно работает
+random_list_of_nums = [22, 5, 1, 18, 99, 76, 34, 9, 13, 12, 80]
+quick_sort(random_list_of_nums)
+print(random_list_of_nums)
